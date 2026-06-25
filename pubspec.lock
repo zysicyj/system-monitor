@@ -896,9 +896,11 @@ packages:
   shared_package:
     dependency: "direct main"
     description:
-      path: "../shared_package"
-      relative: true
-    source: path
+      path: "."
+      ref: HEAD
+      resolved-ref: a834497075ee62a00a49a864f97c95998fdc30d5
+      url: "https://github.com/zysicyj/shared_package.git"
+    source: git
     version: "1.0.0"
   shared_preferences:
     dependency: "direct main"
