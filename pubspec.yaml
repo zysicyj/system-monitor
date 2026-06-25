@@ -1,0 +1,29 @@
+name: system_monitor
+description: "Windows 绯荤粺鐩戞帶鎮诞鏉?
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  shared_package:
+    git:
+      url: https://github.com/zysicyj/shared_package.git
+  shared_preferences: ^2.5.0
+  shadcn_ui: ^0.54.0
+  win32: ^5.5.0
+  window_manager: ^0.4.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
